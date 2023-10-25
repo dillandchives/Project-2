@@ -1,0 +1,60 @@
+body {
+	background-color: seashell;
+	font-family: 'Segoe Script';
+}
+
+header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	border-radius: 10%;
+	max-width: 100%;
+	height: auto;
+}
+
+header h2 {
+	text-align: center;
+	color: rosybrown;
+}
+
+nav > ul {
+	line-height: 2.5em;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	background-color: mistyrose;
+}
+
+nav > ul li {
+	padding: 4em;
+	display: inline;
+}
+
+main img {
+	width: 100%;
+	height: auto;
+	opacity: 0.70;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	color: dimgrey;
+}
+
+.top-left {
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	right: 5%;
+	font-size: 18px;
+}
+
+footer {
+	text-align: center;
+	bottom: 0;
+	clear: both;
+	background-color: mistyrose
+}
