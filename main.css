@@ -13,29 +13,134 @@ header img {
 	height: auto;
 }
 
+header h1 {
+	text-align: left;
+	color: rosybrown;
+	margin-left: 5%;
+	font-size: 50px;
+}
+
 header h2 {
 	text-align: center;
 	color: rosybrown;
 }
 
-nav > ul {
+#nav_bar ul {
 	line-height: 2.5em;
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 	text-align: center;
-	background-color: mistyrose;
+	color: rosybrown;
+	overflow: hidden;
+	border-top: 3.5px solid rosybrown;
+	border-bottom: 3.5px solid rosybrown;
 }
 
-nav > ul li {
-	padding: 4em;
+#nav_bar ul li {
 	display: inline;
+	padding: 0.2em;
+}
+
+#nav_bar ul li a {
+	text-align: center;
+	display: inline-block;
+	padding: 1% 2%;
+	text-decoration: none;
+	background-color: mistyrose;
+	color: rosybrown;
+	font-size: 2em;
+	font-weight: bold;
+	width: 15%;
+	text-align: center;
+}
+
+#nav_bar ul li a:current {
+	background-color: rosybrown;
+	color: linen;
+}
+
+#nav_bar ul li a:hover {
+	background-color: rosybrown;
+	color: linen;
+}
+
+main h2 {
+	text-indent: 2%;
+	font-size: 1.8em;
+	clear: both;
+	color: rosybrown;
+	font-weight: bold;
 }
 
 main img {
 	width: 100%;
 	height: auto;
 	opacity: 0.70;
+}
+
+.top {
+	clear: both;
+	width: 40%;
+	font-size: 1.2em;
+	float: left;
+	margin-left: 5%;
+	color: grey;
+}
+
+	.top h2 {
+		font-weight: bold;
+	}
+
+.bottom {
+	clear: both;
+	width: 100%;
+	font-size: 1.2em;
+	margin-left: 5%;
+	padding-bottom: 5%;
+	color: grey;
+}
+
+div ul {
+	column-count: 2;
+}
+
+div h2 {
+	color: rosybrown;
+}
+
+input {
+	width: 50%;
+	padding: 12px 10px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2.5px solid rosybrown;
+	border-radius: 8px;
+	color: grey;
+	outline: none;
+}
+
+#inq {
+	width: 100%;
+	padding: 30px;
+}
+
+#button {
+	width: 15%
+}
+
+#reset {
+	width: 15%
+}
+
+aside img {
+	width: 100%;
+	padding-top: 2%;
+}
+
+aside {
+	width: 50%;
+	float: right;
 }
 
 .container {
@@ -52,9 +157,30 @@ main img {
 	font-size: 18px;
 }
 
+div.gallery {
+	margin: 2%;
+	border: 4px solid rosybrown;
+	float: left;
+	width: 20%;
+}
+
+div.gallery:hover {
+	border: 4px solid cadetblue;
+}
+
+div.gallery img {
+	width: 100%;
+	height: 60%;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
 footer {
 	text-align: center;
 	bottom: 0;
 	clear: both;
-	background-color: mistyrose
+	background-color: mistyrose;
 }
