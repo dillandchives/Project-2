@@ -66,6 +66,7 @@ header h2 {
 }
 
 main h2 {
+	padding-top: 1%;
 	text-indent: 2%;
 	font-size: 1.8em;
 	clear: both;
@@ -90,6 +91,7 @@ main img {
 
 	.top h2 {
 		font-weight: bold;
+		padding-top: 2%;
 	}
 
 .bottom {
@@ -97,7 +99,7 @@ main img {
 	width: 100%;
 	font-size: 1.2em;
 	margin-left: 5%;
-	padding-bottom: 5%;
+	padding-bottom: 3%;
 	color: grey;
 }
 
@@ -176,6 +178,29 @@ div.gallery img {
 div.desc {
 	padding: 15px;
 	text-align: center;
+}
+
+.accordion-button {
+	color: dimgrey;
+	font-size: 90%;
+}
+
+	.accordion-button.collapsed {
+		color: dimgrey;
+		background: gainsboro;
+	}
+
+.accordion-body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: snow;
+}
+
+.card-body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-title {
+	font-family: 'Segoe Script';
 }
 
 footer {
